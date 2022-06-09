@@ -9,7 +9,7 @@ const Banner = () => {
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div>
-                        <h1 class="mb-5 text-4xl lg:text-6xl font-bold text-white">Hello there</h1>
+                        <h1 class="mb-5 text-6xl font-bold text-white">Hello there</h1>
                         <h1 class="mb-5 text-6xl font-bold text-white">My Self Md. Al Amin Islam</h1>
                         <Typed className='text-3xl text-white'
                             strings={[

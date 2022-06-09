@@ -5,7 +5,7 @@ import img3 from '../../images/Consultant-Point.png'
 import img4 from '../../images/projects.jpg'
 const Projects = () => {
     return (
-        <div>
+        <div id='projects'>
             <div className='pt-10'>
                 <h1 className='text-center mt-10 text-5xl text-emerald-800'>My Projects</h1>
                 <div className='border w-60 h-1 mx-auto mt-4 bg-amber-700'></div>
@@ -13,7 +13,7 @@ const Projects = () => {
 
             <div className='p-10' >
                 {/* style={{ backgroundImage: `url(${img4})`,backgroundPosition:'bottom',backgroundSize:'cover'}} */}
-                <div className=' mt-5 grid grid-cols-1 lg:grid-cols-3' >
+                <div className=' mt-5 grid grid-cols-1 lg:grid-cols-3 gap-3' >
                     <div class="card w-96 glass">
                         <figure><img src={img1} alt="car!" /></figure>
                         <div class="card-body">

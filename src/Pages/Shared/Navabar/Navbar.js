@@ -4,7 +4,7 @@ const Navbar = () => {
     const navItem = <>
         <li><a href='#home'>Home</a></li>
         <li><a href='#about'> About</a></li>
-        <li><a>Project</a></li>
+        <li><a href='#projects'>Projects</a></li>
         <li><a>Contact</a></li>
         <li><a href={CV} download className="btn text-white bg-gradient-to-r from-primary to-secondary" >Download Resume</a></li>
     </>
@@ -19,10 +19,10 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Al Amin</a>
+                <a class="btn btn-ghost normal-case text-2xl" href='#home'>My Portfolio</a>
             </div>
             <div class="navbar-end hidden lg:flex bg-transparent">
-                <ul class="menu menu-horizontal p-0">
+                <ul class="menu menu-horizontal p-0 text-2xl">
                    {navItem}
                 </ul>
             </div>
