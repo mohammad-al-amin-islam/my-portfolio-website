@@ -22,7 +22,7 @@ const Banner = () => {
                         />
                         <div className='mt-5 text-white'>
                             <a href={CV} download className="btn text-white bg-gradient-to-r from-primary to-secondary mr-5" >Download Resume</a>
-                            <a href='/' className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" >Contact Me</a>
+                            <a href='#contact' className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" >Contact Me</a>
                         </div>
                     </div>
                 </div>
