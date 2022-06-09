@@ -4,7 +4,7 @@ import img from '../../images/img.jpg'
 import CV from '../../assests/Resume_Md. Al Amin Islam.pdf'
 const Banner = () => {
     return (
-        <div>
+        <div id='home'>
             <div class="hero min-h-screen" style={{ backgroundImage: `url(${img})` }}>
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">

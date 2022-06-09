@@ -2,14 +2,14 @@ import React from 'react';
 import CV from '../../../assests/Resume_Md. Al Amin Islam.pdf'
 const Navbar = () => {
     const navItem = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#about'> About</a></li>
         <li><a>Project</a></li>
         <li><a>Contact</a></li>
         <li><a href={CV} download className="btn text-white bg-gradient-to-r from-primary to-secondary" >Download Resume</a></li>
     </>
     return (
-        <div class="navbar bg-purple-200 sticky top-0 z-50">
+        <div  class="navbar bg-purple-200 sticky top-0 z-50">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
