@@ -12,9 +12,9 @@ const Banner = () => {
                     <div>
                         <h1 className="mb-5 text-6xl font-bold text-white">Hello there</h1>
                         <h1 className="mb-5 text-6xl font-bold text-white">My Self Md. Al Amin Islam</h1>
-                        <Typed className='text-3xl text-white'
+                        <Typed className='text-4xl text-white'
                             strings={[
-                                "I'm a Full Stack Developer",
+                                "I'm a Front End Developer",
                                 "I Love Software Development",
                             ]}
                             typeSpeed={100}

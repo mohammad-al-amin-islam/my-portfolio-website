@@ -23,8 +23,8 @@ const Contact = () => {
                 <h1 className='text-center mt-10 text-5xl text-emerald-800'>Contact with me</h1>
                 <div className='border w-72 h-1 mx-auto mt-4 bg-amber-700'></div>
             </div>
-            <div className='flex justify-center mt-9'>
-                <div style={{ backgroundImage: `url(${img4})`, backgroundPosition: 'bottom', backgroundSize: 'cover' }} className="card w-full lg:w-2/3 shadow-2xl bg-base-100 ">
+            <div className='flex justify-center m-5'>
+                <div style={{ backgroundImage: `url(${img4})`, backgroundPosition: 'bottom', backgroundSize: 'cover' }} className="card w-full lg:w-2/3 shadow-2xl bg-base-100">
                     <form onSubmit={handleFromSubmit}>
                         <div className="card-body">
                             <div className="form-control">
@@ -46,8 +46,8 @@ const Contact = () => {
                                 </label>
                                 <textarea type="text" name='message' placeholder="Your Message" className="input input-bordered h-56" required />
                             </div>
-                            <div className="form-control mt-6">
-                                <button className="btn btn-primary">Send</button>
+                            <div className="form-control mt-6 w-1/2 mx-auto">
+                                <button className="btn text-white bg-gradient-to-r from-secondary to-blue-500">Send</button>
                             </div>
                         </div>
                     </form>

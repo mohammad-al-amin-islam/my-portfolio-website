@@ -3,10 +3,10 @@ import CV from '../../../assests/Resume_Md. Al Amin Islam.pdf'
 import { Link } from 'react-scroll';
 const Navbar = () => {
     const navItem = <>
-        <li><Link to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link></li>
-        <li><Link to="about" spy={true} smooth={true} offset={-25} duration={500}> About</Link></li>
-        <li><Link to="projects" spy={true} smooth={true} offset={-25} duration={500}>Projects</Link></li>
-        <li><Link to="contact" spy={true} smooth={true} offset={-25} duration={800}>Contact</Link></li>
+        <li><Link to="home" spy={true} smooth={true} offset={-100} duration={500}className='mr-5'>Home</Link></li>
+        <li><Link to="about" spy={true} smooth={true} offset={-25} duration={500} className='mr-5'> About</Link></li>
+        <li><Link to="projects" spy={true} smooth={true} offset={-25} duration={500}className='mr-5'>Projects</Link></li>
+        <li><Link to="contact" spy={true} smooth={true} offset={-25} duration={800}className='mr-5'>Contact</Link></li>
         {/* <li><a href={CV} download className="btn text-white bg-gradient-to-r from-primary to-secondary text-2xl" >Download Resume</a></li> */}
     </>
     return (
@@ -25,7 +25,7 @@ const Navbar = () => {
                 
             </div>
             <div className="navbar-end hidden lg:flex bg-transparent">
-                <ul className="menu menu-horizontal p-0 text-2xl">
+                <ul className="menu menu-horizontal p-0 text-xl">
                    {navItem}
                 </ul>
             </div>

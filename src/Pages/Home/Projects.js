@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from '../../images/Tools-Artisan.png'
 import img2 from '../../images/Cars-House-BD.png'
 import img3 from '../../images/Consultant-Point.png'
-import img4 from '../../images/projects.jpg'
+
 const Projects = () => {
     return (
         <div id='projects'>
@@ -13,37 +13,40 @@ const Projects = () => {
 
             <div className='p-10' >
                 {/* style={{ backgroundImage: `url(${img4})`,backgroundPosition:'bottom',backgroundSize:'cover'}} */}
-                <div className=' mt-5 grid grid-cols-1 lg:grid-cols-3 gap-3' >
-                    <div className="card w-96 glass">
+                <div className=' mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5' >
+                    <div className="card w-80 lg:w-96 glass">
                         <figure><img src={img1} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Tools Artisan</h2>
                             <p>A website for manufucturer</p>
-                            <p>For details click the button</p>
+                            <p>For details click details button</p>
                             <div className="card-actions justify-end">
-                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Details</button>
+                                <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" href='https://tools-artisan.web.app/' target='_blank' rel='noreferrer'>Live Site</a>
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 glass">
+                    <div className="card w-80 lg:w-96 glass">
                         <figure><img src={img2} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Cars House BD</h2>
                             <p>An inventory management website</p>
                             <p>For details click the button</p>
                             <div className="card-actions justify-end">
-                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Details</button>
+                                <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" href='https://cars-house-bd.web.app/' target='_blank' rel='noreferrer'>Live Site</a>
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 glass">
+                    <div className="card w-80 lg:w-96 glass">
                         <figure><img src={img3} alt="car!" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Tools Artisan</h2>
                             <p>A single service provding website</p>
                             <p>For details click the button</p>
                             <div className="card-actions justify-end">
-                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Details</button>
+                                <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" href='https://consultant-point.web.app/' target='_blank' rel='noreferrer'>Live Site</a>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src={alamin} alt='alamin' className="max-w-sm lg:max-w-lg rounded-lg  bg-white p-5shadow-2xl" />
+                    <img src={alamin} alt='alamin' className="max-w-xs lg:max-w-lg rounded-lg  bg-white p-5shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold text-amber-800">I'm Md. Al Amin Islam</h1>
                         <p className="py-6 text-3xl text-amber-800">Front End Developer</p>
