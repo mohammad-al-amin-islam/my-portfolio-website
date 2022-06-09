@@ -5,6 +5,7 @@ import Navbar from './Pages/Shared/Navabar/Navbar';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Pages/Shared/Footer';
 
+
 function App() {
   return (
     <div>
