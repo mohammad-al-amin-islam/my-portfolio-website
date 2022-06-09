@@ -14,36 +14,36 @@ const Projects = () => {
             <div className='p-10' >
                 {/* style={{ backgroundImage: `url(${img4})`,backgroundPosition:'bottom',backgroundSize:'cover'}} */}
                 <div className=' mt-5 grid grid-cols-1 lg:grid-cols-3 gap-3' >
-                    <div class="card w-96 glass">
+                    <div className="card w-96 glass">
                         <figure><img src={img1} alt="car!" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Tools Artisan</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Tools Artisan</h2>
                             <p>A website for manufucturer</p>
                             <p>For details click the button</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                            <div className="card-actions justify-end">
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 glass">
+                    <div className="card w-96 glass">
                         <figure><img src={img2} alt="car!" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Cars House BD</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Cars House BD</h2>
                             <p>An inventory management website</p>
                             <p>For details click the button</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                            <div className="card-actions justify-end">
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 glass">
+                    <div className="card w-96 glass">
                         <figure><img src={img3} alt="car!" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Tools Artisan</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Tools Artisan</h2>
                             <p>A single service provding website</p>
                             <p>For details click the button</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
+                            <div className="card-actions justify-end">
+                                <button className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500">Click Here</button>
                             </div>
                         </div>
                     </div>

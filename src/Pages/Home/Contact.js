@@ -24,30 +24,30 @@ const Contact = () => {
                 <div className='border w-72 h-1 mx-auto mt-4 bg-amber-700'></div>
             </div>
             <div className='flex justify-center mt-9'>
-                <div style={{ backgroundImage: `url(${img4})`, backgroundPosition: 'bottom', backgroundSize: 'cover' }} class="card w-full lg:w-2/3 shadow-2xl bg-base-100 ">
+                <div style={{ backgroundImage: `url(${img4})`, backgroundPosition: 'bottom', backgroundSize: 'cover' }} className="card w-full lg:w-2/3 shadow-2xl bg-base-100 ">
                     <form onSubmit={handleFromSubmit}>
-                        <div class="card-body">
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text text-white">Your Name</span>
+                        <div className="card-body">
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-white">Your Name</span>
                                 </label>
-                                <input type="text" name='name' placeholder="Your Name" class="input input-bordered" required />
+                                <input type="text" name='name' placeholder="Your Name" className="input input-bordered" required />
                             </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text text-white">Email</span>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-white">Email</span>
                                 </label>
-                                <input type="text" name='email' placeholder="email" class="input input-bordered" required />
+                                <input type="text" name='email' placeholder="email" className="input input-bordered" required />
                             </div>
 
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text text-white">Message</span>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text text-white">Message</span>
                                 </label>
-                                <textarea type="text" name='message' placeholder="Your Message" class="input input-bordered h-56" required />
+                                <textarea type="text" name='message' placeholder="Your Message" className="input input-bordered h-56" required />
                             </div>
-                            <div class="form-control mt-6">
-                                <button class="btn btn-primary">Send</button>
+                            <div className="form-control mt-6">
+                                <button className="btn btn-primary">Send</button>
                             </div>
                         </div>
                     </form>
