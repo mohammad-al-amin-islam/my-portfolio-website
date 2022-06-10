@@ -7,6 +7,7 @@ const Navbar = () => {
         <li><Link to="about" spy={true} smooth={true} offset={-25} duration={500} className='mr-5'> About</Link></li>
         <li><Link to="projects" spy={true} smooth={true} offset={-25} duration={500}className='mr-5'>Projects</Link></li>
         <li><Link to="contact" spy={true} smooth={true} offset={-25} duration={800}className='mr-5'>Contact</Link></li>
+        <li><Link to="blogs" spy={true} smooth={true} offset={-25} duration={800}className='mr-5'>Blogs</Link></li>
         {/* <li><a href={CV} download className="btn text-white bg-gradient-to-r from-primary to-secondary text-2xl" >Download Resume</a></li> */}
     </>
     return (
