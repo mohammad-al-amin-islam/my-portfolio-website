@@ -8,7 +8,7 @@ const Blogs = () => {
                 <div className='border w-72 h-1 mx-auto mt-4 bg-amber-700'></div>
             </div>
             <div className='my-52 text-center'>
-                <h1 className='text-5xl text-gray-800'>Coming Soon</h1>
+                <h1 className='text-5xl text-gray-800'>Coming Soon...</h1>
             </div>
         </div>
     );

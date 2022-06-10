@@ -23,12 +23,11 @@ const ProjectDetails2 = () => {
                         </div>
 
                     </div>
-                    <div className='mt-3'>
+                    <div className='my-10'>
                       
-                        <p>In-home pages there is some section header, banner, inventories two extra sections, and a footer.To see inventories you must log in, if you have no account you can also register.In managing inventories you can see all of the data also you can delete it from here.Using add items routes users can add new inventory items.And in my items pages, users can see the items he/she added.And in blogs there is some question answer and in about there is a short description about me.</p>
-
-                        <p> Technologies Used:HTML,CSS,React Bootstarp,Google Font,React.Js,NodeJs,ExpressJs,MongoDB,Firebase,React Router,React Toastify</p>
-                        <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500 mr-3" href='https://github.com/mohammad-al-amin-islam/cars-house-bd-client-side' target='_blank' rel='noreferrer'>GitHub Link</a>
+                        <p className='text-justify'>In-home pages there is some section header, banner, inventories two extra sections, and a footer.To see inventories you must log in, if you have no account you can also register.In managing inventories you can see all of the data also you can delete it from here.Using add items routes users can add new inventory items.And in my items pages, users can see the items he/she added.And in blogs there is some question answer and in about there is a short description about me.</p>
+                        <p className='text-justify'><span className='font-bold'>Technologies Used:</span> HTML,CSS,React Bootstarp,Google Font,React.Js,NodeJs,ExpressJs,MongoDB,Firebase,React Router,React Toastify</p>
+                        <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500 mt-5 mr-3" href='https://github.com/mohammad-al-amin-islam/cars-house-bd-client-side' target='_blank' rel='noreferrer'>GitHub Link</a>
                         <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" href='https://cars-house-bd.web.app/' target='_blank' rel='noreferrer'>Live Site</a>
                     </div>
 

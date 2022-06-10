@@ -13,10 +13,6 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home></Home>
-      {/* <Routes>
-        <Route path='/home' element={}></Route>
-        <Route path='projects/:id' element={<ProjectDetails></ProjectDetails>}></Route>
-      </Routes> */}
       <Footer></Footer>
       <ToastContainer></ToastContainer>
     </div>

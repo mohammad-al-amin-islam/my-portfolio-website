@@ -23,13 +23,13 @@ const ProjectDetails3 = () => {
                         </div>
 
                     </div>
-                    <div className='mt-3'>
+                    <div className='my-5'>
                         
-                        <p>In home pages there is a navbar,banner,services,faq part
+                        <p className='text-justify'>In home pages there is a navbar,banner,services,faq part
                             In Login Form you can login if you have account .If have no account you can use register button for creating account .There is also reset password option if any one forget password. You can not go to checkout page with out login. In blogs pages there is some question answer.In about routes there is images and some description</p>
 
-                        <p> Technologies Used:React JS,React Router,React Bootstarp,Firebase,React Router,React Toastify</p>
-                        <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500 mr-3" href='https://github.com/mohammad-al-amin-islam/consultant-point' target='_blank' rel='noreferrer'>GitHub Link</a>
+                        <p className='text-justify'> <span className='font-bold'>Technologies Used:</span> React JS,React Router,React Bootstarp,Firebase,React Router,React Toastify</p>
+                        <a className="btn text-white mt-5 bg-gradient-to-r from-cyan-500 to-blue-500 mr-3" href='https://github.com/mohammad-al-amin-islam/consultant-point' target='_blank' rel='noreferrer'>GitHub Link</a>
                         <a className="btn text-white bg-gradient-to-r from-cyan-500 to-blue-500" href='https://consultant-point.web.app/' target='_blank' rel='noreferrer'>Live Site</a>
                     </div>
 
